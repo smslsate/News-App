@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "news-app",
+    "slug": "news-app",
+    "platforms": ["ios", "android", "web"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "android": {
+      "package": "com.smsl.smslNewsApp"
+    },
+    "extra": {
+      "newsApiKey": "48a2253f2c75450d83fa090503dda16a"
+    }
+  }
+}
